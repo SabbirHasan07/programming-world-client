@@ -14,7 +14,7 @@ import Details from './Components/Details/Details';
 import Home from './Components/Home/Home';
 import Premiumaccess from './Components/Premiumaccess/Premiumaccess';
 import PrivateRoute from './Components/PrivateRout/PrivateRoute';
-import Toggole from './Components/Toggole/Toggole';
+
 import Error from './Components/error/Error';
 
 
@@ -62,10 +62,7 @@ function App() {
           element: <PrivateRoute><Premiumaccess></Premiumaccess></PrivateRoute>,
           loader: ({params})=> fetch(`https://programming-hub-server.vercel.app/courses/${params.id}`)
         },
-        {
-          path:'/toggle',
-          element:<Toggole></Toggole>
-        },
+        
         {
           path:'*',
           element: <Error></Error>
