@@ -17,7 +17,7 @@ const FAQ = () => {
         
         const Admin = person;
 
-        
+        setName(Admin);
         
         
 
