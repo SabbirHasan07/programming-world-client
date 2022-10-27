@@ -12,8 +12,7 @@ const FAQ = () => {
         section: "Questions And Answers",
         img: 'https://scontent.fdac80-1.fna.fbcdn.net/v/t39.30808-6/305412657_378280334507427_7642492157557809932_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFXxpyn3rxLKS4JFp7WnGaL-CU26-bCz9b4JTbr5sLP1mljwSkShsxGLjPjS5L8NbgRkduZUdMOrFbZOxCqIvgR&_nc_ohc=7FdiV8a7hZIAX84mYPc&_nc_ht=scontent.fdac80-1.fna&oh=00_AfA3LT-g7fZQl3go7e5hJPnt-SuZUHH8yFWffxtR9igkjA&oe=635EE6BB'
      }
-    const { user } = useContext(AuthContext);
-    const handleAdmin =()=>{
+    
         
         const Admin = person;
 
