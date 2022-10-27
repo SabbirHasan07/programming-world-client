@@ -26,11 +26,7 @@ const Courses = () => {
                 }
                 </div>
             </div>
-            <div className='w-10/12'>
-                <Course
-                course={course}></Course>
-
-            </div>
+            
          
         </div>
     );
