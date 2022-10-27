@@ -9,7 +9,11 @@ import {FiSun,FiMoon } from 'react-icons/fi';
 const Header = () => {
    
     const {user, logOut,themeDark, setThemeDark} = useContext(AuthContext);
-   
+    const handleLogout = ()=>{
+        logOut()
+        .then(()=>{})
+        .catch(error=>console.error(error))
+    }
     return (
         <div>
             <div className="navbar bg-neutral text-neutral-content">
