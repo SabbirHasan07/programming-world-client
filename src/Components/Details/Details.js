@@ -9,10 +9,7 @@ import { BsPrinter } from "react-icons/bs";
 
 
 const Details = () => {
-    const detailsAll = useLoaderData();
-    const componentRef = useRef();
-    const handleClick = useReactToPrint({
-        content: () => componentRef.current
+    
     });
     const { id, name, detail, rating, image } = detailsAll;
     return (
