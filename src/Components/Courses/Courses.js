@@ -17,7 +17,7 @@ const Courses = () => {
   
  
     return (
-        <div className='flex m-6' >
+        <div className='lg:flex m-6' >
             <div className='w-2/12' >
                 <div className='grid mt-4'>
                 {

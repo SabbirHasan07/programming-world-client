@@ -17,7 +17,7 @@ const Details = () => {
     const { id, name, detail, rating, image } = detailsAll;
     return (
         <div>
-            <div onClick={handleClick} className='flex bg-orange-200 ml-96 mt-4 mr-96 mb-4 p-2 text-2xl font-bold rounded-2xl '>
+            <div onClick={handleClick} className='flex bg-orange-200 lg:ml-96 lg:mt-4 lg:mr-96 mb-4 p-2 text-2xl font-bold rounded-2xl '>
                 <button className='mr-6' ><BsPrinter className='text-3xl' /></button>
                 <p>Print to PDF</p>
             </div>

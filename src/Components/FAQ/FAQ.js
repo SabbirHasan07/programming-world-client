@@ -24,9 +24,9 @@ const FAQ = () => {
     }
     return (
 
-        <div className='flex'>
+        <div className='lg:flex sm:grid'>
             
-            <div className="card  bg-base-100 shadow-xl ml-28 mb-6 w-4/12">
+            <div className="card  bg-base-100 shadow-xl lg:ml-28 mb-6 lg:w-4/12">
             <h1 className='text-center text-3xl text-blue-900 font-bold'>Your Profile</h1>
                 <figure className="px-10 pt-10">
                     <img src={user?.photoURL} alt="Shoes" className="rounded-xl" />
@@ -41,7 +41,7 @@ const FAQ = () => {
                 </div>
             </div>
 
-            <div className="card  bg-base-100 shadow-xl ml-28 mb-6 w-4/12">
+            <div className="card  bg-base-100 shadow-xl lg:ml-28 mb-6 lg:w-4/12">
             
                 <figure className='px-10 pt-10  '><img src={name.img} alt="Shoes" className="rounded-xl" /></figure>
                 <div className="card-body items-center text-center">

@@ -5,11 +5,11 @@ const Course = ({course}) => {
 
     return (
 
-        <div className='grid grid-cols-3'>
+        <div className='lg:grid grid-cols-3'>
             {
                 course.map(crr =>
 
-                    <p className='grid grid-cols-3 mx-6 '>
+                    <p className='gridgrid-cols-3 mx-6 '>
                         <Link to={`/details/${crr.id}`} className="card w-80 h-120 shadow-2xl  bg-slate-200 my-6 hover:bg-emerald-200 ">
                             <div className="card-body">
                                 <h2 className="card-title">{crr.name}</h2>

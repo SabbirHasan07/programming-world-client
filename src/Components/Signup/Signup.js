@@ -25,6 +25,7 @@ const Signup = () => {
             setError('');
             form.reset();
             handleupdateUserprofile(name, photoURL);
+            
 })
         .catch(e => {
             console.error(e);

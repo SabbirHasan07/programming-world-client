@@ -21,6 +21,16 @@ const Login = () => {
             .then(result => {
                 const user = result.user;
                 console.log(user);
+                setError('');
+                if (user.uid) {
+                    navigate(from, { replace: true });
+
+                }
+                else {
+                   
+                   
+
+                }
 
             })
             .catch(e => console.error(e));
@@ -30,6 +40,16 @@ const Login = () => {
         .then(result => {
             const user = result.user;
             console.log(user);
+            setError('');
+            if (user.uid) {
+                navigate(from, { replace: true });
+
+            }
+            else {
+               
+               
+
+            }
 
         })
         .catch(e => console.error(e));
